@@ -11,7 +11,7 @@ function MainRoutes(){
         <Routes>
             <Route element={<Home />} path="/" />
             <Route element={<Cart />} path="/cart" />
-            <Route element={<Product />} path="/product/:id" />
+            <Route element={<Product />} path="/product" />
             <Route element={<Success />} path="/success" />
         </Routes>
     );
